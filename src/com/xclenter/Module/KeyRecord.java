@@ -5,12 +5,14 @@ public class KeyRecord {
     String key;
     String modifier;
     String source;
+    String time;
 
-    public KeyRecord(int id, String key, String modifier, String source) {
+    public KeyRecord(int id, String key, String modifier, String source,String time) {
         this.id = id;
         this.key = key;
         this.modifier = modifier;
         this.source = source;
+        this.time = time;
     }
 
     public int getId() {
@@ -27,5 +29,9 @@ public class KeyRecord {
 
     public String getSource() {
         return source;
+    }
+
+    public String getTime() {
+        return time;
     }
 }
