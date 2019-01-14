@@ -5,12 +5,12 @@ public class KeyLatency {
     int keyLatency;
 
     public KeyLatency(String key, int keyLatency) {
-        this.key = key;
+        this.key = '\'' +key+"\'";
         this.keyLatency = keyLatency;
     }
 
     public String getKey() {
-        return '\'' + key+"\'";
+        return  key;
     }
 
     public int getKeyLatency() {

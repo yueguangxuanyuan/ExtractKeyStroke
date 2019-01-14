@@ -7,13 +7,14 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ActionEnumClass {
-    public static final String contentInsert = "contentInsert";
-    public static final String contentDelete = "contentDelete";
-    public static final String contentReplace = "contentReplace";
+//    public static final String contentInsert = "contentInsert";
+//    public static final String contentDelete = "contentDelete";
+//    public static final String contentReplace = "contentReplace";
 
     public static final String keyDown = "keyDown";
-    public static final String keyUp = "keyUp";
+//    public static final String keyUp = "keyUp";
     public static final String keyCmd = "keyCmd";
+    public static final String keyInput = "keyInput";
 
     public static List<String> getStaticAttriValueList(){
         List<String> attriList = new ArrayList<>();
